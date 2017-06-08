@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+Copyright (c) 2014, 2016 Oracle and/or its affiliates. All rights reserved.
+
+Oracle and Java are registered trademarks of Oracle and/or its affiliates.
+Other names may be trademarks of their respective owners.
+
+The contents of this file are subject to the terms of either the GNU
+General Public License Version 2 only ("GPL") or the Common
+Development and Distribution License("CDDL") (collectively, the
+"License"). You may not use this file except in compliance with the
+License. You can obtain a copy of the License at
+http://www.netbeans.org/cddl-gplv2.html
+or nbbuild/licenses/CDDL-GPL-2-CP. See the License for the
+specific language governing permissions and limitations under the
+License.  When distributing the software, include this License Header
+Notice in each file and include the License file at
+nbbuild/licenses/CDDL-GPL-2-CP.  Oracle designates this
+particular file as subject to the "Classpath" exception as provided
+by Oracle in the GPL Version 2 section of the License file that
+accompanied this code. If applicable, add the following below the
+License Header, with the fields enclosed by brackets [] replaced by
+your own identifying information:
+"Portions Copyrighted [year] [name of copyright owner]"
+
+If you wish your version of this file to be governed by only the CDDL
+or only the GPL Version 2, indicate your decision by adding
+"[Contributor] elects to include this software in this distribution
+under the [CDDL or GPL Version 2] license." If you do not indicate a
+single choice of license, a recipient has the option to distribute
+your version of this file under either the CDDL, the GPL Version 2 or
+to extend the choice of license to its licensees as provided above.
+However, if you add GPL Version 2 code and therefore, elected the GPL
+Version 2 license, then the option applies only if the new code is
+made subject to such option by the copyright holder.
+
+Contributor(s):
+-->
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <in>common.cpp</in>
+        <in>common.h</in>
+        <in>main.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="spdlog"
+                   displayName="spdlog"
+                   projectFiles="true"
+                   root="../../eclipse-workspace/Test/src/spdlog/include/spdlog">
+      <logicalFolder name="details" displayName="details" projectFiles="true">
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/async_log_helper.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/async_logger_impl.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/file_helper.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/log_msg.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/logger_impl.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/mpmc_bounded_q.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/null_mutex.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/os.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/pattern_formatter_impl.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/registry.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details/spdlog_impl.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="fmt" displayName="fmt" projectFiles="true">
+        <logicalFolder name="bundled" displayName="bundled" projectFiles="true">
+          <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled/format.cc</itemPath>
+          <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled/format.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="sinks" displayName="sinks" projectFiles="true">
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks/base_sink.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks/file_sinks.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks/null_sink.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks/ostream_sink.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks/sink.h</itemPath>
+        <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks/stdout_sinks.h</itemPath>
+      </logicalFolder>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/async_logger.h</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/common.h</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/formatter.h</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/logger.h</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/include/spdlog/spdlog.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="tests"
+                   displayName="tests"
+                   projectFiles="true"
+                   root="../../eclipse-workspace/Test/src/spdlog/tests">
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/catch.hpp</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/errors.cpp</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/file_helper.cpp</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/file_log.cpp</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/format.cpp</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/includes.h</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/main.cpp</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/registry.cpp</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/utils.cpp</itemPath>
+      <itemPath>../../eclipse-workspace/Test/src/spdlog/tests/utils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>build/Debug/Makefile</itemPath>
+      <itemPath>build/Release/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject|build)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>build/Debug/Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0"
+                 commonFlags="-mtune=generic -march=x86-64 -std=gnu++11 -fstack-protector-strong"/>
+        <element flagsID="1" commonFlags="-std=gnu++11"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>build/Debug</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>build/Debug/src/welcome</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>build/Debug</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ../..</preBuildCommand>
+          <preBuildFirst>true</preBuildFirst>
+        </preBuild>
+      </makefileType>
+      <item path="../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled/format.cc"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../eclipse-workspace/Test/src/spdlog/tests/errors.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/tests</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../eclipse-workspace/Test/src/spdlog/tests/file_helper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/tests</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../eclipse-workspace/Test/src/spdlog/tests/file_log.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/tests</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../eclipse-workspace/Test/src/spdlog/tests/format.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/tests</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../eclipse-workspace/Test/src/spdlog/tests/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/tests</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../eclipse-workspace/Test/src/spdlog/tests/registry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/tests</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../../eclipse-workspace/Test/src/spdlog/tests/utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/fmt/bundled</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/details</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include/spdlog/sinks</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/tests</pElem>
+            <pElem>../../eclipse-workspace/Test/src/spdlog/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <folder path="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/Debug</pElem>
+            <pElem>build/Debug/src/spdlog</pElem>
+            <pElem>src/spdlog/include</pElem>
+            <pElem>build/Debug/src</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/common.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="Release" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>build/Release</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>build/Release/src/welcome</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>build/Release/src</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>NDEBUG</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>build/Release</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ../..</preBuildCommand>
+          <preBuildFirst>true</preBuildFirst>
+        </preBuild>
+      </makefileType>
+      <item path="src/common.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

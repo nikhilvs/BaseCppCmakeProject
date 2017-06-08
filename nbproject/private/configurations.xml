@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+Copyright (c) 2014, 2016 Oracle and/or its affiliates. All rights reserved.
+
+Oracle and Java are registered trademarks of Oracle and/or its affiliates.
+Other names may be trademarks of their respective owners.
+
+The contents of this file are subject to the terms of either the GNU
+General Public License Version 2 only ("GPL") or the Common
+Development and Distribution License("CDDL") (collectively, the
+"License"). You may not use this file except in compliance with the
+License. You can obtain a copy of the License at
+http://www.netbeans.org/cddl-gplv2.html
+or nbbuild/licenses/CDDL-GPL-2-CP. See the License for the
+specific language governing permissions and limitations under the
+License.  When distributing the software, include this License Header
+Notice in each file and include the License file at
+nbbuild/licenses/CDDL-GPL-2-CP.  Oracle designates this
+particular file as subject to the "Classpath" exception as provided
+by Oracle in the GPL Version 2 section of the License file that
+accompanied this code. If applicable, add the following below the
+License Header, with the fields enclosed by brackets [] replaced by
+your own identifying information:
+"Portions Copyrighted [year] [name of copyright owner]"
+
+If you wish your version of this file to be governed by only the CDDL
+or only the GPL Version 2, indicate your decision by adding
+"[Contributor] elects to include this software in this distribution
+under the [CDDL or GPL Version 2] license." If you do not indicate a
+single choice of license, a recipient has the option to distribute
+your version of this file under either the CDDL, the GPL Version 2 or
+to extend the choice of license to its licensees as provided above.
+However, if you add GPL Version 2 code and therefore, elected the GPL
+Version 2 license, then the option applies only if the new code is
+made subject to such option by the copyright holder.
+
+Contributor(s):
+-->
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bin">
+        <df name="output">
+        </df>
+      </df>
+      <df name="src">
+        <df name="spdlog">
+          <df name="bench">
+            <df name="latency">
+              <in>g3log-crush.cpp</in>
+              <in>g3log-latency.cpp</in>
+              <in>spdlog-latency.cpp</in>
+              <in>utils.h</in>
+            </df>
+            <df name="logs">
+            </df>
+            <in>boost-bench-mt.cpp</in>
+            <in>boost-bench.cpp</in>
+            <in>easylogging-bench-mt.cpp</in>
+            <in>easylogging-bench.cpp</in>
+            <in>g2log-async.cpp</in>
+            <in>glog-bench-mt.cpp</in>
+            <in>glog-bench.cpp</in>
+            <in>spdlog-async.cpp</in>
+            <in>spdlog-bench-mt.cpp</in>
+            <in>spdlog-bench.cpp</in>
+            <in>spdlog-null-async.cpp</in>
+            <in>utils.h</in>
+          </df>
+          <df name="cmake">
+          </df>
+          <df name="CMakeFiles">
+            <df name="Continuous.dir">
+            </df>
+            <df name="ContinuousBuild.dir">
+            </df>
+            <df name="ContinuousConfigure.dir">
+            </df>
+            <df name="ContinuousCoverage.dir">
+            </df>
+            <df name="ContinuousMemCheck.dir">
+            </df>
+            <df name="ContinuousStart.dir">
+            </df>
+            <df name="ContinuousSubmit.dir">
+            </df>
+            <df name="ContinuousTest.dir">
+            </df>
+            <df name="ContinuousUpdate.dir">
+            </df>
+            <df name="Experimental.dir">
+            </df>
+            <df name="ExperimentalBuild.dir">
+            </df>
+            <df name="ExperimentalConfigure.dir">
+            </df>
+            <df name="ExperimentalCoverage.dir">
+            </df>
+            <df name="ExperimentalMemCheck.dir">
+            </df>
+            <df name="ExperimentalStart.dir">
+            </df>
+            <df name="ExperimentalSubmit.dir">
+            </df>
+            <df name="ExperimentalTest.dir">
+            </df>
+            <df name="ExperimentalUpdate.dir">
+            </df>
+            <df name="Export">
+              <df name="lib">
+                <df name="cmake">
+                  <df name="spdlog">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="Nightly.dir">
+            </df>
+            <df name="NightlyBuild.dir">
+            </df>
+            <df name="NightlyConfigure.dir">
+            </df>
+            <df name="NightlyCoverage.dir">
+            </df>
+            <df name="NightlyMemCheck.dir">
+            </df>
+            <df name="NightlyMemoryCheck.dir">
+            </df>
+            <df name="NightlyStart.dir">
+            </df>
+            <df name="NightlySubmit.dir">
+            </df>
+            <df name="NightlyTest.dir">
+            </df>
+            <df name="NightlyUpdate.dir">
+            </df>
+            <df name="spdlog_headers_for_ide.dir">
+            </df>
+          </df>
+          <df name="example">
+            <df name="jni">
+              <in>example.cpp</in>
+            </df>
+            <df name="logs">
+            </df>
+            <in>bench.cpp</in>
+            <in>example.cpp</in>
+            <in>multisink.cpp</in>
+            <in>utils.h</in>
+          </df>
+          <df name="generated">
+          </df>
+          <df name="include">
+            <df name="spdlog">
+              <df name="details">
+                <in>async_log_helper.h</in>
+                <in>async_logger_impl.h</in>
+                <in>file_helper.h</in>
+                <in>log_msg.h</in>
+                <in>logger_impl.h</in>
+                <in>mpmc_bounded_q.h</in>
+                <in>null_mutex.h</in>
+                <in>os.h</in>
+                <in>pattern_formatter_impl.h</in>
+                <in>registry.h</in>
+                <in>spdlog_impl.h</in>
+              </df>
+              <df name="fmt">
+                <df name="bundled">
+                  <in>format.cc</in>
+                  <in>format.h</in>
+                  <in>ostream.cc</in>
+                  <in>ostream.h</in>
+                  <in>posix.cc</in>
+                  <in>posix.h</in>
+                  <in>time.h</in>
+                </df>
+                <in>fmt.h</in>
+                <in>ostr.h</in>
+              </df>
+              <df name="sinks">
+                <in>android_sink.h</in>
+                <in>ansicolor_sink.h</in>
+                <in>base_sink.h</in>
+                <in>dist_sink.h</in>
+                <in>file_sinks.h</in>
+                <in>msvc_sink.h</in>
+                <in>null_sink.h</in>
+                <in>ostream_sink.h</in>
+                <in>sink.h</in>
+                <in>stdout_sinks.h</in>
+                <in>syslog_sink.h</in>
+                <in>wincolor_sink.h</in>
+              </df>
+              <in>async_logger.h</in>
+              <in>common.h</in>
+              <in>formatter.h</in>
+              <in>logger.h</in>
+              <in>spdlog.h</in>
+              <in>tweakme.h</in>
+            </df>
+          </df>
+          <df name="Testing">
+            <df name="Temporary">
+            </df>
+          </df>
+          <df name="tests">
+            <df name="CMakeFiles">
+              <df name="catch_tests.dir">
+              </df>
+            </df>
+            <df name="logs">
+            </df>
+            <in>catch.hpp</in>
+            <in>errors.cpp</in>
+            <in>file_helper.cpp</in>
+            <in>file_log.cpp</in>
+            <in>format.cpp</in>
+            <in>includes.h</in>
+            <in>main.cpp</in>
+            <in>registry.cpp</in>
+            <in>utils.cpp</in>
+            <in>utils.h</in>
+          </df>
+        </df>
+        <in>common.cpp</in>
+        <in>common.h</in>
+        <in>config.h</in>
+        <in>main.cpp</in>
+        <in>main.h</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>build/Debug/Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
