@@ -20,15 +20,19 @@
 #include <fstream>
 #include <string>
 #include <boost/filesystem.hpp>
+#include "spdlog/spdlog.h"
 
 
 
 namespace fs = boost::filesystem;
 static std::string loggerName="common";
 class Common {
+    auto logger;
 public:
 
-    
+    Common(){
+        logger = spdlog::get(loggerName);
+    }
    
     static bool fexists(const std::string& name) {
         std::ifstream infile(name);

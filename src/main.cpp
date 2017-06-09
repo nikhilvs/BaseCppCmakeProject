@@ -14,8 +14,6 @@
 #include <cstdlib>
 #include "main.h"
 #include <iostream>
-#include "spdlog/spdlog.h"
-#include "common.h"
 #include <boost/algorithm/string.hpp>
 
 void print_version();
@@ -30,6 +28,7 @@ void print_version(){
 
 void initLogger(){
     std::vector<spdlog::sink_ptr> sinks;
+    //enable logger in async mode with queue size
     spdlog::set_async_mode(8192);
     sinks.push_back(std::make_shared<spdlog::sinks::ansicolor_stdout_sink_mt>());
     
